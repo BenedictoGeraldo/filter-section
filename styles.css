@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #FFDD95;
+}
+
+header{
+    text-align: center;
+}
+
+header h3{
+    padding-top: 5px;
+}
+
+h1{
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.oranye-HI{
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+header .blue-HI{
+    color: #01153E;
+}
+
+header .oranye-HI{
+    color: #FE9000;
+}
+
+.logo-company img{
+    padding: 5px;
+    width: 5rem;
+    height: 4rem;
+}
+
+.card{
+    overflow: hidden;
+    width: 17rem;
+    height:23rem;
+    border-radius: 20px;
+    margin-left: 2rem;
+    border: 2px solid #FE9000;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-image: url(house-ilmu-indonesia/poster-volunteer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.programe{
+    margin-top: 6rem;
+}
+
+.info img{
+    width: 30px;
+    height: 35px;
+}
+
+
+.more{
+    background-image: url(house-ilmu-indonesia/poster-HITCC.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    width: 17rem;
+    height: 23rem;
+}
+
+
+.more::before {
+    content: "";
+    position: absolute;
+    bottom: -100%; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    transition: bottom 0.3s ease-in-out; 
+}
+
+.more:hover::before {
+    bottom: 0;
+}
+
+.info p{
+    margin-left: 1.7rem;
+}
+
+p{
+    font-size: 1.1rem;
+}
